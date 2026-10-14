@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Edwinpeligro85\LaravelShippingCost\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelShippingCostCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-shipping-cost';
 
     public $description = 'My command';
 

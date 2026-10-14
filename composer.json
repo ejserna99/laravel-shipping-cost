@@ -1,18 +1,19 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "edwinpeligro85/laravel-shipping-cost",
+    "description": "Este paquete permite calcular y aplicar los costos de envío en una tienda en línea.",
     "keywords": [
-        ":vendor_name",
+        "edwinpeligro85",
         "laravel",
-        ":package_slug"
+        "laravel-shipping-cost",
+        "lshipping-cost"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/edwinpeligro85/laravel-shipping-cost",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
-            "role": "Developer"
+            "name": "Edwin Serna",
+            "email": "edwinflow88@gmail.com",
+            "role": "Full Stack Developer"
         }
     ],
     "require": {
@@ -35,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Edwinpeligro85\\LaravelShippingCost\\": "src/",
+            "Edwinpeligro85\\LaravelShippingCost\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Edwinpeligro85\\LaravelShippingCost\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Edwinpeligro85\\LaravelShippingCost\\LaravelShippingCostServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "ShippingCost": "Edwinpeligro85\\LaravelShippingCost\\Facades\\ShippingCost"
             }
         }
     },
